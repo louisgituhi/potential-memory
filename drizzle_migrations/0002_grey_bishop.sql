@@ -1,0 +1,1 @@
+ALTER TABLE "expensese_table" ALTER COLUMN "date_paid" SET DEFAULT now();

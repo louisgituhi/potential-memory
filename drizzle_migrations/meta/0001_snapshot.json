@@ -1,0 +1,56 @@
+{
+  "id": "093046f5-a343-4765-bebb-3d7c8ea35944",
+  "prevId": "53bcfe7a-c15e-4043-bacc-da337095e9da",
+  "version": "7",
+  "dialect": "postgresql",
+  "tables": {
+    "public.expensese_table": {
+      "name": "expensese_table",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "date_paid": {
+          "name": "date_paid",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "trx_amount": {
+          "name": "trx_amount",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "trx_cost": {
+          "name": "trx_cost",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {},
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "sequences": {},
+  "roles": {},
+  "policies": {},
+  "views": {},
+  "_meta": {
+    "columns": {},
+    "schemas": {},
+    "tables": {}
+  }
+}

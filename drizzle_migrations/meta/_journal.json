@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1740294535413,
+      "tag": "0000_lean_princess_powerful",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1740294617092,
+      "tag": "0001_workable_ravenous",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1740294675250,
+      "tag": "0002_grey_bishop",
+      "breakpoints": true
+    }
+  ]
+}

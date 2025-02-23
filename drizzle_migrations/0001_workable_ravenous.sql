@@ -1,0 +1,1 @@
+ALTER TABLE "expensese_table" ADD COLUMN "date_paid" date NOT NULL;
